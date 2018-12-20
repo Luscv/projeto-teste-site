@@ -1,22 +1,26 @@
+<?php
+	include 'registerbck.php';
+?>
+
 <!doctype html>
 
 
 
-	<html> 																						<!--Início da tag obrigatória HTML-->
+	<html> 																						<!--InÃ­cio da tag obrigatÃ³ria HTML-->
 
 
 
-		<head> 																					<!--Início da cabeçalho-->
+		<head> 																					<!--InÃ­cio da cabeÃ§alho-->
 
 			<meta charset="utf-8"  /> 							
-			<title>uHi - Registre-se agora! </title>    										<!--Título que será exibido na página web-->
+			<title>uHi - Registre-se agora! </title>    										<!--TÃ­tulo que serÃ¡ exibido na pÃ¡gina web-->
 			
 
 
 
 
 
-			<!--início do CSS do código de registro-->
+			<!--inÃ­cio do CSS do cÃ³digo de registro-->
 			<style type="text/css">																
 				
 				form {text-align: center; margin: auto; margin-top: 40px;}
@@ -35,35 +39,35 @@
 
 
 			</style>				
-			<!--fim do CSS do código de registro-->
+			<!--fim do CSS do cÃ³digo de registro-->
 
-		</head>																					<!--Fim da cabeçalho-->
-
-
+		</head>																					<!--Fim da cabeÃ§alho-->
 
 
-		<body> 																					<!--Início da tag corpo-->
 
-																								<!--início da div que irá abrigar o formulário de registro-->
+
+		<body> 																					<!--InÃ­cio da tag corpo-->
+
+																								<!--inÃ­cio da div que irÃ¡ abrigar o formulÃ¡rio de registro-->
 
 				<h2>Nos ajude a preparar seu perfil!</h2>
-				<form method="POST">															<!--início do formulário que irá abrigar os dados de registro-->
+				<form method="POST">															<!--inÃ­cio do formulÃ¡rio que irÃ¡ abrigar os dados de registro-->
 					<div id="formregistro">
 					
-					<!--Formulário que vai coletar o nome, faculdade, curso, endereço e senha do usuário-->											
+					<!--FormulÃ¡rio que vai coletar o nome, faculdade, curso, endereÃ§o e senha do usuÃ¡rio-->											
 
 					<br/>
-					<input type="text" placeholder="Primeiro e último nome" name="nome"><br/>
+					<input type="text" placeholder="Primeiro e Ãºltimo nome" name="nome"><br/>
 					<input type="text" placeholder="Faculdade" name="faculdade"><br/>
 					<input type="text" placeholder="Curso" name="curso"><br/>
-					<input type="email" placeholder="Endereço de e-mail" name="email"><br/>
-					<input type="email" placeholder="Confirme seu endereço de e-mail" name="verificaemail"><br/>
+					<input type="email" placeholder="EndereÃ§o de e-mail" name="email"><br/>
+					<input type="email" placeholder="Confirme seu endereÃ§o de e-mail" name="verificaemail"><br/>
 					<input type="password" placeholder="Senha" name="senha"><br/>
 					<br/>
 					<input type="submit" value="Criar uma conta" name="criar"><br/>
 					<br/>
 					</div>
-					<h4> Já tem uma conta no uHi? <a href="login.php">Faça login agora!</a></h3> 
+					<h4> JÃ¡ tem uma conta no uHi? <a href="login.php">FaÃ§a login agora!</a></h3> 
 				</form>
 			
 
