@@ -10,7 +10,6 @@
 
 	include("db.php");
 
-	function criauser($nome, $faculdade, $curso, $email, $senha){
   		$newuser = new Usuario();
   		if (isset($_POST['criar'])) {
 			$newuser->nome = $_POST['nome'];
@@ -68,7 +67,6 @@
 				}
 			}
 		}
-	}
 ?>
 
 <!-- fim do SCRIPT php para realizar a operação de verificação e efetuação do cadastro-->
