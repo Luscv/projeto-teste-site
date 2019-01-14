@@ -3,7 +3,7 @@
 <!--ARQUIVOS REFERENCIADOS: db.php, registro.php, masterlogin.php-->
 <!--FUNÇÃO: tela onde os usuários registrados poderão fazer login-->
 <!--ÚLTIMO EDITOR: Henrique-->
-<!--DATA: 25/12/2018-->
+<!--DATA: 14/01/2019-->
 
 
 <!--SCRIPT php referenciando os arquivos master db e login-->
