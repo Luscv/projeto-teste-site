@@ -1,7 +1,14 @@
 <?php
 	error_reporting(E_ALL ^ E_DEPRECATED);
-	$connect = mysql_connect("127.0.0.1","root","") or die("Não foi possível ligar ao servidor...");
-	$db = mysql_select_db("uhi", $connect) or die("Impossível entrar na Base de dados");
+	$host = "127.0.0.1";
+    $user = "root";
+    $password = "";
+    $db = "uhi";
+
+    $mysqli = new mysqli($host, $user, $password, $db);
+
+    if($mysqli->connect_errno)
+        echo "falha na conexão: (".$mysqli->connect_errno.") ".$mysqli->connect_error;
 ?>
 <html>
 <header>
