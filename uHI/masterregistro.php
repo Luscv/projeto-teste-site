@@ -71,9 +71,9 @@
 			}elseif ($senha == '' OR strlen($senha)<5) {
 				echo '<h3>Escolhe uma senha mais complexa, vai! Que tal mais de 5 caracteres? xD</h3>';
 			}else{
-				$resultuser = "INSERT INTO 'users'(nome, faculdade, curso, email, senha) values ('$nome', '$faculdade', '$curso', '$email', '$senha')";
+				$resultuser = "INSERT INTO users (`nome`, `faculdade`, `curso`, `email`, `senha`) values ('$nome', '$faculdade', '$curso', '$email', '$senha')";
 				$resultuser = mysqli_query($mysqli, $resultuser);
-				if (mysqli_insert_id($mysqli)) {
+				if (mysqli_connect($resultuser)){
                     echo "<h3>registro feito com sucesso!</h3>";
 				}else{
 					echo "<h3>Ops! Algo errado não está certo :(</h3>";
